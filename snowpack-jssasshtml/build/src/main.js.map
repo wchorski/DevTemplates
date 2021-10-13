@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../build/src/js/app.js", "../../build/src/main.js"],
+  "sourcesContent": ["const mouseFollow = document.getElementById('mouse-follow');\r\n\r\ndocument.addEventListener('mousemove', (e) => {\r\n  mouseFollow.style.cssText = `\r\n    left: ${e.clientX - 25}px;\r\n    top:  ${e.clientY - 25}px;\r\n  `;\r\n});", "import './main.css'\r\nimport './js/app.js'\r\n\r\nconsole.log('main.js loaded');"],
+  "mappings": "AAAA,GAAM,GAAc,SAAS,eAAe,gBAE5C,SAAS,iBAAiB,YAAa,AAAC,GAAM,CAC5C,EAAY,MAAM,QAAU;AAAA,YAClB,EAAE,QAAU;AAAA,YACZ,EAAE,QAAU;MCFxB,QAAQ,IAAI",
+  "names": []
+}

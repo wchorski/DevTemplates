@@ -1,4 +1,9 @@
-div.hello{
-  color: rgb(67, 173, 187);
-  background-color: rgb(0, 234, 255);
+@import './scss/app';
+
+html {
+  background: #0e3741;
+}
+
+h1{
+  color: whitesmoke;
 }

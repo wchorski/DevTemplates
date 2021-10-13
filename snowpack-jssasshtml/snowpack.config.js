@@ -1,11 +1,11 @@
-// import pkgJ from './package.json';
+// const pkj = import('./package.json');
 const name = 'app';
 const date = new Date().toDateString();
 
 module.exports = {
   plugins: [
-    '@snowpack/plugin-sass'
-    // ['snowpack-plugin-zip', { outputPath: `build/${name}--${date}.zip` }]
+    '@snowpack/plugin-sass',
+    ['snowpack-plugin-zip', { outputPath: `buildzip/${name}--${date}.zip` }]
   ],
   optimize: {
     minify: true,
